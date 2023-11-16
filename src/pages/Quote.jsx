@@ -34,6 +34,8 @@ export default function Quote() {
         </div>
 
         {/* divider */}
+        {window.innerWidth > 766 ? (
+
         <div className="divider-desk inline-flex items-center justify-center w-full mt-6">
           <svg width="444" height="16" xmlns="http://www.w3.org/2000/svg">
             <g fill="none" fill-rule="evenodd">
@@ -45,11 +47,16 @@ export default function Quote() {
             </g>
           </svg>
         </div>
+        ) : null}
+
+    {window.innerWidth < 766 ? (
 
         <div className="divider-mobile inline-flex items-center justify-center w-full mt-6"> 
             <svg width="295" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#4F5D74" d="M0 8h122v1H0zM173 8h122v1H173z"/><g transform="translate(138)" fill="#CEE3E9"><rect width="6" height="16" rx="3"/><rect x="14" width="6" height="16" rx="3"/></g></g></svg>
         </div>
-
+    )
+    :
+    null}
 
         {/* dice icon */}
         <div
