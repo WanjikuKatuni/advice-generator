@@ -1,14 +1,14 @@
-# Frontend Mentor - Advice generator app solution
+# Advice Generator
 
-This is a solution to the [Advice generator app challenge]
+Application built by reactjs and tailwind that makes API calls to give random advice
+
+![](./Screenshot.png)
 
 ## Table of contents
 
   - [Links](#links)
-  - [Built with](#Built with)
 - [Author](#Author)
 
-![](./Screenshot.png)
 
 
 ### Links
