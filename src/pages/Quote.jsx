@@ -21,14 +21,14 @@ export default function Quote() {
 
   return (
     <div className="quote bg-[#1F2632] h-[100vh] grid place-items-center ">
-      <div className="quote-body bg-[#323A49] h-[40vh] w-[35vw] shadow-2xl mt-[-50px] rounded-3xl text-center relative">
+      <div className="quote-body bg-[#323A49] h-[35vh] w-[30vw] shadow-2xl mt-[-50px] rounded-3xl text-center relative">
         {/* title */}
         <div className="quote-title text-[#52FFA8] uppercase mt-14 mb-6 tracking-[0.25em]">
           ADVICE #{quoteData.id}
         </div>
 
         {/* quote */}
-        <div className="quote-text text-white text-[28px] px-8 mt-9">
+        <div className="quote-text text-white text-[28px] px-24 mt-9">
           "{quoteData.quote}"
         </div>
 
